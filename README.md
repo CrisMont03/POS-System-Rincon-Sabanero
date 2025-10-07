@@ -1,50 +1,67 @@
-# Welcome to your Expo app 👋
+# Rincón Sabanero – Sistema POS para Restaurante
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Una aplicación móvil y página web desarrolladas, que simulan un sistema de punto de venta (POS) para un restaurante de comida típica. Su propósito es gestionar pedidos, roles de usuarios y operaciones internas mediante la integración con servicios BaaS (Backend as a Service) para almacenar información e imágenes en la nube.
 
-## Get started
+## Descripción
 
-1. Install dependencies
+Rincón Sabanero busca optimizar la atención y administración en restaurantes, ofreciendo una herramienta digital que facilita la interacción entre clientes, chefs y cajeros.
+El sistema permite que:
 
-   ```bash
-   npm install
-   ```
+- Clientes realicen pedidos y visualicen el menú desde la app o la web, pudiendo utilizar la cámara para el escaneo de códigos QR.
 
-2. Start the app
+- Chefs reciban los pedidos en tiempo real y actualicen su estado, además de poder subir información e imagenes de los productos ofrecidos utilizando la cámara del teléfono.
 
-   ```bash
-    npx expo start
-   ```
+- Cajeros gestionen cobros, facturación y el cierre de órdenes.
 
-In the output, you'll find options to open the app in a
+## Objetivos
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Desarrollar una plataforma funcional y moderna para la gestión de ventas en restaurantes.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Implementar roles diferenciados para cada tipo de usuario.
 
-## Get a fresh project
+Integrar servicios en la nube (Firebase y Supabase) para el manejo eficiente de datos e imágenes.
 
-When you're ready, run:
+Crear una interfaz simple, intuitiva y adaptable a distintos dispositivos (móvil y web).
 
-```bash
-npm run reset-project
-```
+## Roles del Sistema
+### Cliente
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Registro e inicio de sesión.
 
-## Learn more
+Visualización del menú con imágenes y precios.
 
-To learn more about developing your project with Expo, look at the following resources:
+Selección de productos y generación de pedidos.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Seguimiento del estado del pedido (en preparación, listo, entregado).
 
-## Join the community
+### Chef
 
-Join our community of developers creating universal apps.
+Subida de los productos ofrecidos a la base de datos.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Acceso al panel de pedidos activos.
+
+Actualización del estado de cada pedido.
+
+Visualización de detalles: productos, cantidad, observaciones del cliente.
+
+### Cajero
+
+Revisión de pedidos completados.
+
+Registro de pagos y generación de facturas.
+
+Control del historial de ventas diarias.
+
+## Tecnologías y Herramientas
+
+Frontend: React Native (para app móvil y visualización web)
+
+Backend as a Service:
+
+Firebase Authentication: Manejo de registro e inicio de sesión.
+
+Firestore: Base de datos para pedidos, usuarios y chats.
+
+Supabase: Almacenamiento de imágenes de productos.
+
+Desarrollo y compilación móvil: Expo
