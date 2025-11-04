@@ -1,4 +1,4 @@
 # POSApp_Project
 Proyecto POSApp - Desarrollo Móvil
 
-Cristian Montiel
+The development is located in the "dev" branch.
