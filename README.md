@@ -1,4 +1,4 @@
-# Rincón Sabanero – Restaurant POS System
+# Rincón Sabanero: Restaurant POS System
 
 A mobile application and web platform developed to simulate a Point of Sale (POS) system for a traditional cuisine restaurant. Its purpose is to manage orders, user roles, and internal operations by integrating Backend-as-a-Service (BaaS) solutions to store data and images in the cloud.
 
