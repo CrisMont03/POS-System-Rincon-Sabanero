@@ -1,6 +1,6 @@
 # Rincón Sabanero: Restaurant POS System
 
-A mobile application and web platform developed as a Point of Sale (POS) system for a traditional cuisine restaurant located in Chia, Cundinamarca, Cololmbia. Its purpose is to manage orders, user roles, and internal operations by integrating Backend-as-a-Service (BaaS) solutions to store data and images in the cloud.
+A mobile application and web platform developed as a Point of Sale (POS) system for a traditional cuisine restaurant located in Chia, Cundinamarca, Colombia. Its purpose is to manage orders, user roles, and internal operations by integrating Backend-as-a-Service (BaaS) solutions to store data and images in the cloud.
 
 ## Description
 
