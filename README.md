@@ -1,67 +1,67 @@
-# Rincón Sabanero – Sistema POS para Restaurante
+# Rincón Sabanero – Restaurant POS System
 
-Una aplicación móvil y página web desarrolladas, que simulan un sistema de punto de venta (POS) para un restaurante de comida típica. Su propósito es gestionar pedidos, roles de usuarios y operaciones internas mediante la integración con servicios BaaS (Backend as a Service) para almacenar información e imágenes en la nube.
+A mobile application and web platform developed to simulate a Point of Sale (POS) system for a traditional cuisine restaurant. Its purpose is to manage orders, user roles, and internal operations by integrating Backend-as-a-Service (BaaS) solutions to store data and images in the cloud.
 
-## Descripción
+## Description
 
-Rincón Sabanero busca optimizar la atención y administración en restaurantes, ofreciendo una herramienta digital que facilita la interacción entre clientes, chefs y cajeros.
-El sistema permite que:
+Rincón Sabanero aims to optimize restaurant operations and customer service by providing a digital solution that streamlines interactions between customers, chefs, and cashiers. The system allows:
 
-- Clientes realicen pedidos y visualicen el menú desde la app o la web, pudiendo utilizar la cámara para el escaneo de códigos QR.
+- Customers to browse the menu and place orders through the mobile app or web platform, with the ability to use the device's camera to scan QR codes.
 
-- Chefs reciban los pedidos en tiempo real y actualicen su estado, además de poder subir información e imagenes de los productos ofrecidos utilizando la cámara del teléfono.
+- Chefs to receive orders in real time, update their status, and upload product information and images using the phone's camera.
 
-- Cajeros gestionen cobros, facturación y el cierre de órdenes.
+- Cashiers to manage payments, generate invoices, and complete customer orders.
 
-## Objetivos
+## Objectives
 
-Desarrollar una plataforma funcional y moderna para la gestión de ventas en restaurantes.
+Develop a modern and functional platform for restaurant sales management.
 
-Implementar roles diferenciados para cada tipo de usuario.
+Implement role-based access for different types of users.
 
-Integrar servicios en la nube (Firebase y Supabase) para el manejo eficiente de datos e imágenes.
+Integrate cloud services (Firebase and Supabase) for efficient data and image management.
 
-Crear una interfaz simple, intuitiva y adaptable a distintos dispositivos (móvil y web).
+Create a simple, intuitive, and responsive interface that adapts to both mobile and web devices.
 
-## Roles del Sistema
-### Cliente
+## System Roles
 
-Registro e inicio de sesión.
+### Customer
 
-Visualización del menú con imágenes y precios.
+User registration and authentication.
 
-Selección de productos y generación de pedidos.
+Browse the menu with images and prices.
 
-Seguimiento del estado del pedido (en preparación, listo, entregado).
+Select products and place orders.
+
+Track order status (preparing, ready, delivered).
 
 ### Chef
 
-Subida de los productos ofrecidos a la base de datos.
+Upload available products to the database.
 
-Acceso al panel de pedidos activos.
+Access the active orders dashboard.
 
-Actualización del estado de cada pedido.
+Update the status of each order.
 
-Visualización de detalles: productos, cantidad, observaciones del cliente.
+View order details, including products, quantities, and customer notes.
 
-### Cajero
+### Cashier
 
-Revisión de pedidos completados.
+Review completed orders.
 
-Registro de pagos y generación de facturas.
+Process payments and generate invoices.
 
-Control del historial de ventas diarias.
+Monitor daily sales history.
 
-## Tecnologías y Herramientas
+## Technologies and Tools
 
-Frontend: React Native (para app móvil y visualización web)
+**Frontend:** React Native (mobile application and web support)
 
-Backend as a Service:
+**Backend as a Service (BaaS):**
 
-Firebase Authentication: Manejo de registro e inicio de sesión.
+- Firebase Authentication: User registration and authentication.
 
-Firestore: Base de datos para pedidos, usuarios y chats.
+- Firestore: Database for orders, users, and chats.
 
-Supabase: Almacenamiento de imágenes de productos.
+- Supabase: Cloud storage for product images.
 
-Desarrollo y compilación móvil: Expo
+**Mobile Development and Build:** Expo
